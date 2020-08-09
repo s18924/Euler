@@ -10,7 +10,7 @@ public class P_004 {
         System.out.println(maxnum);
     }
 
-    static boolean isPalindrome(int number){
+    private static boolean isPalindrome(int number){
         String stringNum = String.valueOf(number);
         for (int i = 0; i < stringNum.length()/2; i++) {
             if (stringNum.charAt(i) != stringNum.charAt(stringNum.length()-1-i))
