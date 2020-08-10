@@ -1,4 +1,3 @@
-import java.math.BigDecimal;
 import java.math.BigInteger;
 
 public class P_008 {
@@ -37,14 +36,10 @@ public class P_008 {
     }
 
     private static BigInteger multiplyAllDigitsOfNumber(String number){
-        //System.out.println("\nDla liczby " + number + " dodaje ");
-        //System.out.println(number.length());
         BigInteger sum= new BigInteger("1");
         for (int i = 0; i < number.length(); i++) {
-            //System.out.print(Integer.parseInt(String.valueOf(number.charAt(i))));
             sum = sum.multiply(new BigInteger(String.valueOf(number.charAt(i))));
         }
-        System.out.println(" i wynik to: " + sum);
         return sum;
     }
 }
