@@ -1,6 +1,5 @@
-public class Main {
-
+public class P_018 {
     public static void main(String[] args) {
-	// write your code here
+        
     }
 }

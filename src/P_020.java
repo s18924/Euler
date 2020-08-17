@@ -3,7 +3,7 @@ import java.math.BigInteger;
 public class P_020 {
     public static void main(String[] args) {
         BigInteger sum = new BigInteger("1");
-        for (int i = 1; i <= 10000; i++) {
+        for (int i = 1; i <= 100000; i++) {
             sum = sum.multiply(new BigInteger(String.valueOf(i)));
         }
         System.out.println(sum);
