@@ -49,7 +49,6 @@ public class P_011 {
         int[][] fourArray = new int[4][4];
         int f1 = 0, f2 = 0;
         for (int k = i; k < i + 4; k++) {
-
             for (int l = j; l < j + 4; l++) {
                // System.out.println(">"+f1+" " + f2);
                 fourArray[f1][f2] = Integer.parseInt(twoDimArray[k][l]);
